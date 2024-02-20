@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.anubhavtrainings.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.035 s <<< FAILURE! - in com.anubhavtrainings.ApplicationTests
+contextLoads  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'databaseConfig' defined in file [C:\Users\shyam\OneDrive\Desktop\CAPM\anubhavcapm-master\05dbboot\target\classes\com\anubhavtrainings\configuration\DatabaseConfig.class]: Initialization of bean failed; nested exception is org.springframework.cloud.CloudException: No suitable cloud connector found
+Caused by: org.springframework.cloud.CloudException: No suitable cloud connector found
+
